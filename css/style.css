@@ -1,21 +1,51 @@
-@import url(http://fonts.googleapis.com/css?family=skinny);
-
 body 	{
 	  background: url("../images/background.png")  no-repeat fixed;
 	  background-size: auto;
 	  background-color: #cacec0;
 	  background-position:center;
-	  font-family: skinny;	
-	  width: 1358px;
-	  height: 2000px;
+	  position: absolute;
 	  padding: 0px;
 	  margin: 0px;
+	  background -background-position: 50% 50%;
  }
 
- h1	{
- 	font :skinny;
+#title		{
+	width: 416px;
+	height: 79px;
+	font-size: 72px;
+	color: white;
+	padding-left: 49px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+#subtitle		{
+	font-family: helvetica;
+	margin-top: 5px;
+	font-size: 24px;
+}
+
+/*p 	{
+	width:0px;
+	height: 0px;
+}*/
+
+#headline1		{
+ 	font-size: 72px;
+ 	font-family: Helvetica;
+ 	color: #fafafa;
  }
 
- h3	{
- 	font: Avenir Next;
+ #headline2		{
+ 	font-size: 72px;
+ 	font-family: Helvetica;
+ 	color: #c6181d;
+ }
+
+ #info	{
+ 	font-size: 18px;
+ 	font-family: helvetica;
+ 	width: 235px;
+ 	height: 416px;
  }
