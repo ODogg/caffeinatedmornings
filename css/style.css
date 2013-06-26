@@ -1,0 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=skinny);
+
+body 	{
+	  background: url("../images/background.png")  no-repeat fixed;
+	  background-size: auto;
+	  background-color: #cacec0;
+	  background-position:center;
+	  font-family: skinny;
+	  width: 1358px;
+	  height: 2000px;
+	  padding: 0px;
+	  margin: 0px;
+ }
+
+ h1	{
+ 	font :skinny;
+ }
+
+ h3	{
+ 	font: ITC Avant Garde Gothic Std Bold;
+ }
