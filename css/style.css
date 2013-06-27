@@ -2,11 +2,12 @@ body 	{
 	  background: url("../images/background.png") no-repeat;
 	  background-size: auto;
 	  background-color: #cacec0;
+    background-position: center;
  }
 
 #main{
   width: 960px;
-  margin: 0 auto;
+  margin: 0 100px;
 }
 
 #title h1 {
@@ -27,7 +28,7 @@ body 	{
 }
 
 #main > section {
-  margin-top: 240px;
+  margin-top: 160px;
 }
 
 section h1, section h2{
@@ -48,14 +49,57 @@ section h2{
 }
 
 div p {
-    font-family: Futura;
-    font-size: 1.125em;
-    width: 400px;
+  font-family: Futura;
+  font-size: 1.125em;
+  width: 400px;
 }
 
-#info{
-  font-size: 18px;
-  font-family: helvetica;
-  width: 235px;
-  height: 416px;
+a {
+  color: white;
+}
+
+/* #info{ */
+/*   font-size: 18px; */
+/*   font-family: helvetica; */
+/*   width: 235px; */
+/*   height: 416px; */
+/* } */
+/*  */
+footer div {
+    width: 100px;
+    float: left;
+    margin-right: 40px;
+}
+
+footer div p{
+  margin: 0;
+  padding: 0;
+}
+
+#stripe {
+  position: absolute;
+  top:  0;
+  left: 0;
+  background: url('../images/stripe.png') no-repeat;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  background-position: 500px 0px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
 }
