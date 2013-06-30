@@ -91,15 +91,12 @@ footer div p{
 
 
 @media (max-width: 600px) {
-	
 	#stripe {
 	  position: absolute;
 	  right: auto;
 	  width: 100%;
 	  left: 300px;
-	  
 	}
-	
 }
 
 
