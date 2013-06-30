@@ -84,6 +84,15 @@ footer div p{
   padding: 0;
 }
 
+footer div:nth-child(2) {
+  margin-left: 35px 
+}
+
+a { 
+  color: black;
+  text-decoration: none;
+}
+
 #stripe {
   position: fixed;
   top: 0;
