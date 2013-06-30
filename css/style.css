@@ -1,13 +1,15 @@
 body 	{
-	  background: url("../images/background.png") no-repeat;
-	  background-size: auto;
-	  background-color: #cacec0;
+    background: url("../images/background.png") no-repeat;
+    background-size: auto;
+    background-color: #cacec0;
     background-position: center;
  }
 
 #main{
   width: 960px;
   margin: 0 100px;
+  position: relative;
+  z-index: 20;
 }
 
 #title h1 {
@@ -46,6 +48,7 @@ section h2{
   font-size: 72px;
   font-family: Helvetica;
   color: #c6181d;
+  margin-top: 20px;
 }
 
 div p {
@@ -68,25 +71,35 @@ a {
 footer div {
     width: 100px;
     float: left;
-    margin-right: 40px;
+   /* margin-right: 40px;*/
+   margin: 10 0 0 0 0;
 }
 
 footer div p{
-  margin: 0;
   padding: 0;
 }
 
 #stripe {
-  position: absolute;
-  top:  0;
-  left: 0;
-  background: url('../images/stripe.png') no-repeat;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: url('../images/stripe_2.png') no-repeat;
   z-index: 10;
   height: 100%;
-  width: 100%;
-  background-position: 500px 0px;
-  margin: 0;
-  padding: 0;
+  width: 450px;
+}
+
+
+@media (max-width: 600px) {
+	
+	#stripe {
+	  position: absolute;
+	  right: auto;
+	  width: 100%;
+	  left: 300px;
+	  
+	}
+	
 }
 
 
@@ -102,4 +115,6 @@ footer div p{
 
 .clearfix {
     *zoom: 1;
-}
+    margin-top: 150px;
+  } 
+
