@@ -91,6 +91,7 @@ footer div:nth-child(2) {
 a { 
   color: black;
   text-decoration: none;
+  font-family: Futura;
 }
 
 #stripe {
