@@ -1,5 +1,5 @@
 body 	{
-    background: url("../images/background.png") no-repeat;
+    background: url("../images/bg_3.png") no-repeat;
     background-size: auto;
     background-color: #cacec0;
     background-position: center;
@@ -56,6 +56,11 @@ div p {
   font-size: 1.125em;
   width: 400px;
 }
+
+.register {
+  margin-top: 100px
+}
+
 
 a {
   color: white;
