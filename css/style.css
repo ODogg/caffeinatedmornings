@@ -8,6 +8,8 @@ body 	{
 #main{
   width: 960px;
   margin: 0 100px;
+  position: relative;
+  z-index: 20;
 }
 
 #title h1 {
@@ -74,21 +76,30 @@ footer div {
 }
 
 footer div p{
-  
   padding: 0;
 }
 
 #stripe {
   position: fixed;
-  top:  0;
-  left: 0;
+  top: 0;
+  right: 0;
   background: url('../images/stripe_2.png') no-repeat;
   z-index: 10;
   height: 100%;
-  width: 100%;
-  background-position: 900px 0px;
-  margin: 0;
-  padding: 0;
+  width: 450px;
+}
+
+
+@media (max-width: 600px) {
+	
+	#stripe {
+	  position: absolute;
+	  right: auto;
+	  width: 100%;
+	  left: 300px;
+	  
+	}
+	
 }
 
 
