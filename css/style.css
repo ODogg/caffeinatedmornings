@@ -1,9 +1,12 @@
 body 	{
-    background: url("../images/bg_3.png") no-repeat;
-    background-size: auto;
-    background-color: #cacec0;
-    background-position: center;
- }
+  background: url("../images/new_bg.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px; 
+}
 
 #main{
   width: 960px;
@@ -13,20 +16,20 @@ body 	{
 }
 
 #title h1 {
-    width: 418px;
-    height: 53px;
-    text-indent: -9001em;
-    background: url('../images/caff_logo.png') no-repeat;
-    margin-bottom: 0;
-    margin-top: 50px;
+  width: 418px;
+  height: 53px;
+  text-indent: -9001em;
+  background: url('../images/caff_logo.png') no-repeat;
+  margin-bottom: 0;
+  margin-top: 50px;
 }
 
 #title h2 {
-    color:  white;
-    font-size: 1.5em;
-    font-family: Futura;
-    margin: 0;
-    padding: 0;
+  color:  white;
+  font-size: 1.5em;
+  font-family: Futura;
+  margin: 0;
+  padding: 0;
 }
 
 #main > section {
@@ -41,13 +44,13 @@ section h1, section h2{
 section h1{
   font-size: 72px;
   font-family: Helvetica;
-  color: #fafafa;
+  color: white;
 }
 
 section h2{
   font-size: 72px;
   font-family: Helvetica;
-  color: #c6181d;
+  color: red;
   margin-top: 20px;
 }
 
@@ -55,6 +58,11 @@ div p {
   font-family: Futura;
   font-size: 1.125em;
   width: 400px;
+  margin: 0px;  
+}
+
+div p a {
+  color: red;
 }
 
 .register {
@@ -66,18 +74,19 @@ a {
   color: white;
 }
 
-/* #info{ */
-/*   font-size: 18px; */
-/*   font-family: helvetica; */
-/*   width: 235px; */
-/*   height: 416px; */
-/* } */
-/*  */
+#footerBox  {
+  width: 100%;
+  height: 75px;
+  background-color: #c6181d;
+  margin-bottom: 0px;
+  padding-right: 2  0px;
+}
+
 footer div {
-    width: 100px;
-    float: left;
-   /* margin-right: 40px;*/
-   margin: 10 0 0 0 0;
+  width: 100px;
+  float: left;
+  margin: 0 0 0 0;
+  padding-top: 5px;
 }
 
 footer div p{
@@ -94,12 +103,18 @@ a {
   font-family: Futura;
 }
 
+#buttons  {
+  position: relative;
+  z-index: 100;
+}
+
+
 #stripe {
   position: fixed;
   top: 0;
   right: 0;
-  background: url('../images/stripe_2.png') no-repeat;
-  z-index: 10;
+  background: url('../images/stripe_4.png') no-repeat;
+  z-index: 1;
   height: 100%;
   width: 450px;
 }
@@ -117,16 +132,23 @@ a {
 
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 .clearfix {
-    *zoom: 1;
-    margin-top: 150px;
-  } 
+  *zoom: 1;
+  margin-top: 150px;
+  margin-left: 100 px;
+  margin-bottom: 10px;
+  z-index: 20;
+}
 
+/*#calendar {
+  margin-top: 20px;
+  margin-left: 40px;
+}*/
