@@ -1,4 +1,4 @@
-body 	{
+  body 	{
   background: url("../images/new_bg.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -14,6 +14,8 @@ body 	{
   position: relative;
   z-index: 20;
 }
+
+/******TOP TITLE******/
 
 #title h1 {
   width: 418px;
@@ -31,6 +33,10 @@ body 	{
   margin: 0;
   padding: 0;
 }
+
+/******END TITLE******/
+
+/******HERO CONTENT******/
 
 #main > section {
   margin-top: 100px;
@@ -69,41 +75,46 @@ div p a {
   margin-top: 100px
 }
 
+/******END HERO CONTENT******/
+
+
+/******BEGIN FOOTER******/
 
 a {
   color: white;
+  padding-left: 10px; 
 }
 
 footer ul {
   width: 100%;
   height: 75px;
   background-color: #c6181d;
+  padding-left: 100px;
 }
 
 footer li {
   list-style: none; 
-  position: relative; 
   font-family:Futura;
   font-size:14px;
-  line-height: 75px;
+  color: black;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+footer li li  {
+  margin-top: 20px;
   vertical-align: middle;
 }
 
-.sponsor1:after {
-  content: url("../images/ab_logo_white.png");
-  /*display: inline-block;*/
-}
-
-.sponsor2:after {
-  content: url("../images/scrib_logo_white_small.png");
-  /*display: inline-block;*/
+.sponsor2 {
+  margin-left: 15px;
 }
 
 .sponsor3 {
   line-height: 75px;
 }
 
-
+/******END FOOTER******/
 
 #stripe {
   position: fixed;
@@ -139,64 +150,3 @@ footer li {
 .addthisevent_dropdown .frs       {position:absolute;top:5px;cursor:pointer;right:10px;padding-left:10px;font-style:normal;font-weight:normal;text-align:right;z-index:101;line-height:110%;background:#fff;text-decoration:none;font-size:9px;color:#cacaca;}
 .addthisevent_dropdown .frs:hover     {color:#6d84b4;}
 .addthisevent               {visibility:hidden;}
-
-
-
-
-
-
-/*a { 
-  color: black;
-  text-decoration: none;
-  font-family: Futura;
-}
-
-#buttons  {
-  position: relative;
-  z-index: 100;
-}*/
-
-
-/*.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;
-}
-
-.clearfix:after {
-  clear: both;
-}
-
-.clearfix {
-  *zoom: 1;
-  margin-top: 90px;
-  margin-left: 100 px;
-  margin-bottom: 160px;
-  z-index: 20;
-  padding-bottom: 30px;
-  font-size: 10px;
-}*/
-
-/*#footerBox  {
-  width: 100%;
-  height: 75px;
-  background-color: #c6181d;
-  
-}
-
-
-footer div {
-  width: 100px;
-  float: left;
-  margin: 0 0 0 0;
-  padding-top: 2px;
-  z-index: 300;
-}
-
-footer div p{
-  padding: 0;
-}
-
-footer div:nth-child(2) {
-  margin-left: 35px 
-}*/ 
